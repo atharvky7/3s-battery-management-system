@@ -1,0 +1,26 @@
+# Arduino / embedded build artifacts
+build/
+*.hex
+*.elf
+*.map
+*.o
+*.a
+*.d
+*.bin
+*.eep
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+
+# Python scripts, if added later
+__pycache__/
+*.pyc
+
+# Local secrets and scratch files
+.env
+.env.*
+*.tmp
